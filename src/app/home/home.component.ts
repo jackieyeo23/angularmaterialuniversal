@@ -5,6 +5,13 @@ import {Component} from '@angular/core';
   template: `
     <h3>{{ message }}</h3>
     <img [src]="image">
+    <div>
+      <mat-card>
+      <button mat-raised-button>Cersie Lannister</button>
+      <button mat-raised-button color="primary">Jaime Lannister</button>
+      <button mat-raised-button color="accent">Tyrion Lannister</button>
+      </mat-card>
+    </div>
   `
 })
 export class HomeComponent {
